@@ -35,8 +35,7 @@ public class HttpResponse
 						sb.append("</title></head><body><h1>Index of ");
 						sb.append(request.uri);
 						sb.append("</h1><hr><pre>");
-
-						// TODO add Parent Directory
+						
 						File[] files = file.listFiles();
 						for (File subfile : files)
 						{
